@@ -31,6 +31,7 @@ repos:
         name: interrogate
         exclude: (dist|json|data_format)/
         description: "Checks code base for missing docstrings"
+        args: ["-v"]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.1 # Use the ref you want to point at
     hooks:
